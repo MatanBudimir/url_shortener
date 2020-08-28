@@ -8,6 +8,7 @@ import (
 	"time"
 )
 
+// MemoryCache represents application's cache
 var MemoryCache *cache.Cache
 
 // server starts the web server

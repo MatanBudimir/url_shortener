@@ -9,6 +9,7 @@ import (
 	"os"
 )
 
+// DB represents database connection variable
 var (
 	DB                                   *gorm.DB
 	err                                  error

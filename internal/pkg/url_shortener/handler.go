@@ -11,6 +11,7 @@ import (
 	"url_shortener/internal/pkg/database"
 )
 
+// URL represents short URL information
 type URL struct {
 	Uuid, Url string
 }
