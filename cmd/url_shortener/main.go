@@ -8,5 +8,5 @@ import (
 // Main starts the application
 func main() {
 	log.Println("Starting...")
-	urlShortener.Start()
+	urlshortener.Start()
 }
